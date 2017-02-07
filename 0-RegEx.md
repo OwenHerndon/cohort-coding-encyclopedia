@@ -41,7 +41,7 @@ answer:
 Provide a regex that matches dates with the format: `MM/DD/YYYY`. Use named captures to extract Day, Month and Year.
 
 ```c#
-answer:
+answer: /(0[1-9]|1[012])[- \/.](0[1-9]|[12][0-9]|3[01])[- \/.](19|20)\d\d/
 
 ```
 
